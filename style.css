@@ -1,0 +1,68 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("images/world-map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 120px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 90px;
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-size: 35px;
+  line-height: 1.5;
+}
+
+header h3 {
+  letter-spacing: 3px;
+}
+
+header a {
+  display: inline-block;
+  color: #085276;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 16px 32px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: white;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 50px;
+  }
+
+  header h2 {
+    font-size: 35px;
+  }
+
+  header h3 {
+    font-size: 17px;
+  }
+}
